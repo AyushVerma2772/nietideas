@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+
+:root {
+    --primary-font: 'Raleway', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0.9rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ccc4ee;
+    box-shadow: inset 0 0 0.3rem rgb(248, 248, 248);
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ED228D;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+/* #5235C3 #ED228D */

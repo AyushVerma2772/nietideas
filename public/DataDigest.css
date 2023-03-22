@@ -1,0 +1,135 @@
+body {
+  background: linear-gradient(90deg, hsla(120, 93%, 84%, 1) 0%, hsla(185, 90%, 51%, 1) 100%);
+
+}
+
+html {
+  font-size: 10px;
+}
+
+h1 {
+  width: 100%;
+  color: rgb(2, 2, 2);
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  padding: 1rem 0;
+  font-size: 4.5rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+img {
+  width: 45rem;
+  border-radius: 0.4rem;
+}
+
+.button-div {
+  display: flex;
+  gap: 3rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+a {
+  cursor: pointer;
+  border: 0;
+  border-radius: 2.5rem;
+  padding: 0.8rem 1.7rem;
+  font-family: Raleway, sans-serif;
+  color: snow;
+  background-color: #ed228d;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  width: 40%;
+}
+
+.right p {
+  font-family: Raleway, sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+@media (max-width:720px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .left {
+    width: 80%;
+  }
+
+  .right {
+    width: 80%;
+  }
+
+}
+
+/* Responsive */
+
+/* For small screen mobile */
+@media screen and (max-width: 390px) {
+  html {
+    font-size: 5.5px;
+  }
+
+}
+
+
+/* For Mobile medium and large screen */
+@media screen and (min-width: 390px) and (max-width: 620px) {
+  html {
+    font-size: 6.5px;
+  }
+}
+
+
+/* For tablet and landscape mobiles */
+@media screen and (min-width: 620px) and (max-width:900px) {
+  html {
+    font-size: 7px;
+  }
+
+}
+
+/* For small laptop screens */
+@media screen and (min-width: 901px) and (max-width:1024px) {
+  html {
+    font-size: 7.6px;
+  }
+
+}
+
+/* For medium laptop screens */
+@media screen and (min-width: 1025px) and (max-width:1279px) {
+  html {
+    font-size: 8.1px;
+  }
+
+}
+
+/* For Large laptop screens */
+@media screen and (min-width: 1280) and (max-width:2000px) {
+  html {
+    font-size: 10px;
+  }
+
+}

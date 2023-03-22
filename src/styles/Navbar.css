@@ -1,0 +1,113 @@
+.navbar {
+    width: 100%;
+    height: 7rem;
+    padding: 2.5rem;
+    justify-content: space-between;
+    background-color: #5235C3;
+    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    border-bottom: 0.1rem solid snow;
+}
+
+.logo a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: snow;
+}
+
+.menu {
+    gap: 3.3rem;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+    overflow: hidden;
+    font-size: 1.7rem;
+    color: snow;
+    font-family: var(--primary-font);
+    padding: 0.7rem 0;
+    position: relative;
+    
+}
+
+
+.menu-link::after {
+    content: "";
+    position: absolute;
+    height: 0.3rem;
+    width: 0;
+    background-color: #ED228D;
+    left: 0;
+    bottom: 0;
+    transition: width 0.2s ease-in-out;
+}
+
+.menu-link:hover::after {
+    width: 100%;
+}
+
+.active::after {
+    width: 100%;
+}
+
+.hamburger {
+    color: snow;
+    font-size: 3rem;
+    display: none;
+    cursor: pointer;
+}
+
+.reg-btn {
+    cursor: pointer;
+    border: 0;
+    border-radius: 2.5rem;
+    padding: 0.8rem 1.8rem;
+    font-family: var(--primary-font);
+    color: snow;
+    background-color: #ED228D;
+    font-size: 1.75rem;
+}
+
+.reg-btn a {
+    color: snow;
+}
+
+.right-nav {
+    gap: 3rem;
+}
+
+@media only screen and (max-width: 720px) {
+    .navbar {
+        border-bottom: 0.1rem solid snow;
+    }
+
+    .left-nav {
+        gap: 3rem;
+    }
+
+    .menu {
+        position: absolute;
+        top: 7rem;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        background-color: #5235C3;
+        padding: 3.5rem;
+        left: -100%;
+        transition: left 0.5s ease-in-out;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .open {
+        left: 0;
+    }
+    
+}
