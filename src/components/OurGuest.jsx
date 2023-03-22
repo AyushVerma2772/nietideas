@@ -42,7 +42,7 @@ const CardContainer = styled.div`
 const OurGuest = () => {
 
     const guest = [
-        {id: 1, img: a, name: "Dr. Raman Batra", about: "Executive Vice Chancellor"},
+        {id: 1, img: a, name: "Mr. Raman Batra", about: "Executive Vice President"},
         {id: 2, img: b, name: "Dr. Vinod M. Kapse", about: "Director"},
         {id: 3, img: c, name: "Dr. D.R. Somashekar", about: "Dean Admin"},
         {id: 4, img: d, name: "Dr. Chandra Shekhar Yadav", about: "Dean, MCA"},
