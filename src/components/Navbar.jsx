@@ -23,6 +23,7 @@ const Navbar = () => {
         { id: '#guest', name: "Guest" },
         { id: '#venue', name: "Venue" },
         { id: '#contact', name: "Contact" },
+        
     ]
 
 
