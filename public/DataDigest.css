@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: linear-gradient(90deg, hsla(120, 93%, 84%, 1) 0%, hsla(185, 90%, 51%, 1) 100%);
 
@@ -7,13 +13,27 @@ html {
   font-size: 10px;
 }
 
-h1 {
+nav {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+  padding: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+h1 {
+  display: flex;
   color: rgb(2, 2, 2);
   text-align: center;
   font-family: Raleway, sans-serif;
-  padding: 1rem 0;
   font-size: 4.5rem;
+}
+
+.reg-div {
+  display: flex;
+  gap: 2rem;
 }
 
 .container {
@@ -23,6 +43,7 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 img {
@@ -32,9 +53,9 @@ img {
 
 .button-div {
   display: flex;
+  justify-content: center;
   gap: 3rem;
   margin-top: 5rem;
-  justify-content: center;
 }
 
 a {
@@ -54,6 +75,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .right {
@@ -65,7 +87,24 @@ a {
   font-size: 1.8rem;
   font-weight: bold;
 }
-
+.faculty-div{
+  width: 58%;
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+  padding:1rem 1rem;
+  gap: 2rem;
+}
+.image-div img{
+  width: 15rem;
+  height: 15rem;
+}
+.image-content{
+  height: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media (max-width:720px) {
   .container {
     display: flex;
@@ -81,6 +120,9 @@ a {
     width: 80%;
   }
 
+  .faculty-div{
+    justify-content: center;
+  }
 }
 
 /* Responsive */

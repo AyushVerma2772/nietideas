@@ -53,7 +53,7 @@ const Navbar = () => {
                     }
                 </ul>
 
-                <div className="d-flex right-nav">
+                <div className="d-flex right-nav" >
                     <button className="reg-btn"><a className='link' href="https://forms.office.com/r/e68e4BNCbC" target="_blank" rel="noreferrer">Register Now</a></button>
 
                     <DDBtn href="datadigest.html" target="_blank" rel="noreferrer" >Data Digest</DDBtn>
