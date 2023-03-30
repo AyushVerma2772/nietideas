@@ -11,6 +11,8 @@ import f from '../images/6.jpeg';
 import g from '../images/7.jpeg';
 import h from '../images/8.jpeg';
 import i from '../images/9.jpeg';
+import j from '../images/10.jpg';
+import k from '../images/11.jpg';
 
 
 const Wrapper = styled.section`
@@ -42,15 +44,17 @@ const CardContainer = styled.div`
 const OurGuest = () => {
 
     const guest = [
-        {id: 1, img: a, name: "Mr. Raman Batra", about: "Executive Vice President"},
-        {id: 2, img: b, name: "Dr. Vinod M. Kapse", about: "Director"},
-        {id: 3, img: c, name: "Dr. D.R. Somashekar", about: "Dean Admin"},
-        {id: 4, img: d, name: "Dr. Chandra Shekhar Yadav", about: "Dean, MCA"},
-        {id: 5, img: e, name: "Dr. Kumud Saxena", about: "HoD CSE/IT/M.tech Integrated"},
-        {id: 6, img: f, name: "Dr. Priyanka Chandani", about: "HoD AI/DS/CSBS"},
-        {id: 8, img: h, name: "Dr. Mohammad Shahid", about: "HoD AIML"},
-        {id: 7, img: g, name: "Ms. Bhawna Wadhwa", about: "HoD CS"},
-        {id: 9, img: i, name: "Mr. Mayank Deep Khare", about: "HoD IoT"},
+        {id: 1, img: j, name: "Dr. O P Agarwal", about: "Managing Director"},
+        {id: 2, img: k, name: "Dr. Neema Agarwal", about: "Additional Managing Director"},
+        {id: 3, img: a, name: "Mr. Raman Batra", about: "Executive Vice President"},
+        {id: 4, img: b, name: "Dr. Vinod M. Kapse", about: "Director"},
+        {id: 5, img: c, name: "Dr. D.R. Somashekar", about: "Dean Admin"},
+        {id: 6, img: d, name: "Dr. Chandra Shekhar Yadav", about: "Dean, MCA"},
+        {id: 7, img: e, name: "Dr. Kumud Saxena", about: "HoD CSE/IT/M.tech Integrated"},
+        {id: 8, img: f, name: "Dr. Priyanka Chandani", about: "HoD AI/DS/CSBS"},
+        {id: 9, img: h, name: "Dr. Mohammad Shahid", about: "HoD AIML"},
+        {id: 10, img: g, name: "Ms. Bhawna Wadhwa", about: "HoD CS"},
+        {id: 11, img: i, name: "Mr. Mayank Deep Khare", about: "HoD IoT"},
     ]
 
     return (
