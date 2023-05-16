@@ -25,7 +25,7 @@ const Image = styled.img`
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
-    object-fit: fill;
+    object-fit: fill;  
 `;
 
 const About = styled.p`
